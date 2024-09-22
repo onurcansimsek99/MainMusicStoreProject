@@ -9,7 +9,7 @@ namespace MainMusicStore.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
-
+            //first commit
         }
         public DbSet<Category> Categories { get; set; }
     }

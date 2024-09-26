@@ -15,4 +15,8 @@
     <ProjectReference Include="..\MainMusicStore.Models\MainMusicStore.Models.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="MainMusicStore\Data\Migrations\" />
+  </ItemGroup>
+
 </Project>
